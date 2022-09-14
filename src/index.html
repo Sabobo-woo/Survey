@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+
+<Body>
+    <Header>
+        <h1 id="title"> Feedback Form </h1>
+    </header>
+    <form class="survey">
+
+        <div class="survey_input">
+            <div>
+                <label for="name" id="name-label"> Name </label>
+                <input id="name" type="text" name="name" class="form-inputs" required> </input>
+            </div>
+            <br>
+            <div>
+                <label for="email" id="email-label"> Email </label>
+                <input id="email" type="email" name="email" class="form-inputs" required>
+                </input>
+            </div>
+            <br>
+            <div>
+                <label for="dropdown" id="model"> Choose batch </label>
+                <select id="dropdown">
+                    <option value="Winter 2021"> Winter 2021</option>
+                    <option value="Winter 2022"> Winter 2022</option>
+                    <option value="Winter 2023"> Winter 2023</option>
+                    <option value="Winter 2024"> Winter 2024</option>
+                </select>
+            </div>
+
+            <br>
+            <br>
+            <div>
+                <label for="did_you" id="did_you"> Did you complete all the exercises from week 1? </label>
+                <br>
+                <input id="yes" type="radio" name="binary" value="1">
+                <label for="" yes"> Yes </label>
+                <br>
+                <input id="no" type="radio" name="binary" value="0">
+                <label for="" no"> No </label>
+            </div>
+            <br>
+            <div>
+                <label for="exercise">Choose your favorite exercise</label>
+                <input id="checkbox" type="checkbox" name="exercise">
+                <label for="checkbox"> CSS selectors</label>
+                <input id="checkbox" type="checkbox" name="exercise">
+                <label for="checkbox"> Book page</label>
+                <input id="checkbox" type="checkbox" name="exercise">
+                <label for="checkbox"> Belfast international kindergarten</label>
+                <input id="checkbox" type="checkbox" name="exercise">
+                <label for="checkbox"> Crownsnest retreat</label>
+                <input id="checkbox" type="checkbox" name="exercise">
+                <label for="checkbox"> Google page</label>
+                <input id="checkbox" type="checkbox" name="exercise">
+                <label for="checkbox"> Documentation page</label>
+                <input id="checkbox" type="checkbox" name="exercise">
+                <label for="checkbox"> Aneta webbie</label>
+            </div>
+            <div>
+                <br>
+                <label id="textarea">Write feedback: </label>
+                <br>
+                <textarea id="textarea" name"feedback" rows="5" cols="59.5">
+</textarea>
+            </div>
+            <br>
+
+            <input id="submit" type="submit" value="submit" class="submit-button">
+
+        </div>
+
+    </form>
+
+</body>
+
+</html>
